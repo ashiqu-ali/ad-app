@@ -13,10 +13,19 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive, overlays: []);
 
-    return const MaterialApp(
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight,
+    ]);
+
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'AD app',
-      home: HomePage(),
+      home: OrientationBuilder(
+        builder: (context, orientation) {
+          return const HomePage();
+        },
+      ),
     );
   }
 }

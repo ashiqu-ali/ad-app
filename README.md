@@ -1,16 +1,34 @@
-# ad_app
+# AD App
 
-A new Flutter project.
+This is a Flutter application for displaying advertisements in a landscape orientation.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Before you begin, make sure you have Flutter and Dart installed on your machine.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
+- [Dart Installation Guide](https://dart.dev/get-dart)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Clone the Repository
+
+Clone the repository using the following command:
+
+```bash
+git clone https://github.com/ashiqu-ali/ad-app.git
+
+Run the Application
+Ensure you have an emulator or a physical device connected. Run the following command to start the application:
+
+```bash
+flutter run
+
+
+## Dependencies
+
+- `marquee`: A package for creating scrolling text marquee.
+
+## Contributing
+
+Feel free to contribute to the project by opening issues or pull requests.

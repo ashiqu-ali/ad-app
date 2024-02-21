@@ -2,21 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:marquee/marquee.dart';
 
 class MarqueeWidget extends StatelessWidget {
-  const MarqueeWidget({Key? key});
+  const MarqueeWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
       height: 50,
       child: Marquee(
-        text: '\t\t\t\t\tCONTACT   US   9895623063   FOR   ADVERTISEMENT \t\t\t\t\t\t\t\t\t\t WWW.AMTECHLON.IN \t\t\t\t\t ',
+        text: 'CONTACT   US   83018 97663   FOR   ADVERTISEMENT',
         scrollAxis: Axis.horizontal,
-        blankSpace: 30.0,
+        blankSpace: 100.0,
         velocity: 50.0,
-        startPadding: 10.0,
-        accelerationDuration: const Duration(seconds: 1),
+        startPadding: 40.0,
         accelerationCurve: Curves.linear,
-        decelerationDuration: const Duration(milliseconds: 500),
         decelerationCurve: Curves.easeOut,
         style: const TextStyle(
             fontSize: 18.0,

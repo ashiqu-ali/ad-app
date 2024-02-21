@@ -12,7 +12,6 @@ class MarqueeWidget extends StatelessWidget {
         text: 'CONTACT   US   83018 97663   FOR   ADVERTISEMENT',
         scrollAxis: Axis.horizontal,
         blankSpace: 100.0,
-        velocity: 50.0,
         startPadding: 40.0,
         accelerationCurve: Curves.linear,
         decelerationCurve: Curves.easeOut,

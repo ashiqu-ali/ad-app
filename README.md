@@ -17,13 +17,14 @@ Clone the repository using the following command:
 
 ```bash
 git clone https://github.com/ashiqu-ali/ad-app.git
+```
 
-Run the Application
+## Run the Application
 Ensure you have an emulator or a physical device connected. Run the following command to start the application:
 
 ```bash
 flutter run
-
+```
 
 ## Dependencies
 
